@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>New Sails App</title>
+    <title>Designer</title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -29,13 +29,18 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/bootstrap/bootstrap-theme.css">
+    <link rel="stylesheet" href="/styles/bootstrap/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/styles/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/styles/ivr-designer.css">
+    <link rel="stylesheet" href="/styles/jquery-ui.min.css">
     <!--STYLES END-->
   </head>
 
   <body>
     <%- body %>
-
-
 
     <!--
         Client-side Templates
@@ -59,6 +64,7 @@
     -->
 
     <!--TEMPLATES-->
+    
     <!--TEMPLATES END-->
 
 
@@ -86,6 +92,32 @@
     -->
 
     <!--SCRIPTS-->
+    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/dependencies/ajquery.js"></script>
+    <script src="/js/dependencies/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/dependencies/jquery-ui.min.js"></script>
+    <script src="/js/jsPlumb/external/jquery.ui.touch-punch-0.2.2.min.js"></script>
+    <script src="/js/jsPlumb/external/jsBezier-0.7.js"></script>
+    <script src="/js/jsPlumb/external/mottle-0.6.js"></script>
+    <script src="/js/jsPlumb/external/biltong-0.2.js"></script>
+    <script src="/js/jsPlumb/util.js"></script>
+    <script src="/js/jsPlumb/browser-util.js"></script>
+    <script src="/js/jsPlumb/jsPlumb.js"></script>
+    <script src="/js/jsPlumb/dom-adapter.js"></script>
+    <script src="/js/jsPlumb/overlay-component.js"></script>
+    <script src="/js/jsPlumb/endpoint.js"></script>
+    <script src="/js/jsPlumb/connection.js"></script>
+    <script src="/js/jsPlumb/anchors.js"></script>
+    <script src="/js/jsPlumb/defaults.js"></script>
+    <script src="/js/jsPlumb/connectors-bezier.js"></script>
+    <script src="/js/jsPlumb/connectors-statemachine.js"></script>
+    <script src="/js/jsPlumb/connectors-flowchart.js"></script>
+    <script src="/js/jsPlumb/renderers-svg.js"></script>
+    <script src="/js/jsPlumb/renderers-vml.js"></script>
+    <script src="/js/jsPlumb/base-library-adapter.js"></script>
+    <script src="/js/jsPlumb/jquery.jsPlumb.js"></script>
+    <script src="/js/designer_flow.js"></script>
+    <script src="/js/main.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>

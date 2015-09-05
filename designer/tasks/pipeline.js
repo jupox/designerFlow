@@ -25,13 +25,37 @@ var jsFilesToInject = [
   
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
+  // load jquery before bootstrap
+  'js/dependencies/ajquery.js',
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
 
+  'js/jsPlumb/external/jquery.ui.touch-punch-0.2.2.min.js',
+  'js/jsPlumb/external/jsBezier-0.7.js',
+  'js/jsPlumb/external/mottle-0.6.js',
+  'js/jsPlumb/external/biltong-0.2.js',
+
+  'js/jsPlumb/util.js',
+  'js/jsPlumb/browser-util.js',
+  'js/jsPlumb/jsPlumb.js',
+  'js/jsPlumb/dom-adapter.js',
+  'js/jsPlumb/overlay-component.js',
+  'js/jsPlumb/endpoint.js',
+  'js/jsPlumb/connection.js',
+  'js/jsPlumb/anchors.js',
+  'js/jsPlumb/defaults.js',
+  'js/jsPlumb/connectors-bezier.js',
+  'js/jsPlumb/connectors-statemachine.js',
+  'js/jsPlumb/connectors-flowchart.js',
+  'js/jsPlumb/renderers-svg.js',
+  'js/jsPlumb/renderers-vml.js',
+  'js/jsPlumb/base-library-adapter.js',
+  'js/jsPlumb/jquery.jsPlumb.js',
+
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
-  'js/**/*.js'
+  'js/*.js'
 ];
 
 
